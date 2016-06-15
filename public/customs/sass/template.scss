@@ -1,0 +1,58 @@
+@import 'variable';
+body {
+    background-color: $body-color-default;
+    nav.navbar-custom {
+        border-radius: 0;
+        background-color: $color-main-default;
+        div.navbar-header {
+            button span {
+                background-color: $color-default;
+            }
+            a.navbar-brand {
+                color: $color-default;
+            }
+        }
+        div.navbar-collapse {
+            form.navbar-left {
+                input,
+                button {
+                    height: $lg-space-maximal;
+                }
+            }
+            ul.navbar-right {
+                li {
+                    > a {
+                        background-color: $color-main-default;
+                        padding-top: $sm-space-normal;
+                        padding-bottom: $sm-space-normal;
+                        color: $color-default;
+                        line-height: $lg-space-maximal;
+                        i {
+                            vertical-align: middle;
+                        }
+                        img {
+                            margin-right: $sm-space-normal;
+                            height: $md-space-normal;
+                            border-radius: 0px;
+                        }
+                    }
+                    > a:hover,
+                    > a:focus {
+                        background-color: $color-main-active;
+                    }
+                }
+                li.dropdown ul.dropdown-menu > li {
+                    > a {
+                        color: $color-default-invert;
+                        background-color: $color-default;
+                    }
+                    > a:hover,
+                    > a:focus {
+                        background-color: $color-main-active;
+                        color: $color-default;
+                    }
+                }
+            }
+        }
+    }
+}

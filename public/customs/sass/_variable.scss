@@ -1,0 +1,22 @@
+/* ------ default color ------ */
+
+$body-color-default: #E0E0E0;
+$color-main-default: #990000;
+$color-main-active: #A52A2A;
+$color-default: #FFFFFF;
+$color-default-invert: #000000;
+
+/* ------ space ------ */
+
+$sm-space-minimal: 4px;
+$sm-space-normal: ($sm-space-minimal*2);
+$sm-space-maximal: ($sm-space-minimal*3);
+$md-space-minimal: ($sm-space-minimal*4);
+$md-space-normal: ($sm-space-minimal*5);
+$md-space-maximal: ($sm-space-minimal*6);
+$lg-space-minimal: ($sm-space-minimal*7);
+$lg-space-normal: ($sm-space-minimal*8);
+$lg-space-maximal: ($sm-space-minimal*9);
+$spacial-space-minimal: 48px;
+$spacial-space-normal: 56px;
+$spacial-space-maximal: 64px;

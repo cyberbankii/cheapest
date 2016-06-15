@@ -1,0 +1,24 @@
+/* ------ default color ------ */
+/* ------ space ------ */
+div.container div.panel-heading {
+  background-color: #990000;
+  color: #FFFFFF; }
+
+div.container div.panel-body form.form-horizontal div.form-group {
+  text-align: center; }
+  div.container div.panel-body form.form-horizontal div.form-group div#img-thumb-preview img {
+    height: 200px;
+    border: solid #E0E0E0 3px; }
+  div.container div.panel-body form.form-horizontal div.form-group div.imageUpload {
+    position: relative;
+    overflow: hidden;
+    margin: 4px; }
+    div.container div.panel-body form.form-horizontal div.form-group div.imageUpload input.upload {
+      position: absolute;
+      top: 0;
+      right: 0;
+      margin: 0;
+      padding: 0;
+      cursor: pointer;
+      opacity: 0;
+      filter: alpha(opacity=0); }

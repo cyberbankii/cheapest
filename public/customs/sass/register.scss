@@ -1,0 +1,35 @@
+@import 'variable';
+div.container {
+    div.panel-heading {
+        background-color: $color-main-default;
+        color: $color-default;
+    }
+    div.panel-body {
+        form.form-horizontal {
+            div.form-group {
+                text-align: center;
+                div#img-thumb-preview {
+                    img {
+                        height: 200px;
+                        border: solid $body-color-default 3px;
+                    }
+                }
+                div.imageUpload {
+                    position: relative;
+                    overflow: hidden;
+                    margin: $sm-space-minimal;
+                    input.upload {
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        margin: 0;
+                        padding: 0;
+                        cursor: pointer;
+                        opacity: 0;
+                        filter: alpha(opacity=0);
+                    }
+                }
+            }
+        }
+    }
+}

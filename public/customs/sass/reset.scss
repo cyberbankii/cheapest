@@ -1,0 +1,7 @@
+@import 'variable';
+div.container {
+    div.panel-heading {
+        background-color: $color-main-default;
+        color: $color-default;
+    }
+}
