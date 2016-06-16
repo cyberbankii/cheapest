@@ -26,32 +26,32 @@
                         <div class="col-sm-10">
                             <div class="checkbox">
                                 <label>
-                                    <input type="checkbox" name="tags[]" value="fashion">Fashion
+                                    <input type="checkbox" name="tags[]" value="1">Fashion
                                 </label>
                             </div>
                             <div class="checkbox">
                                 <label>
-                                    <input type="checkbox" name="tags[]" value="it">IT
+                                    <input type="checkbox" name="tags[]" value="2">IT
                                 </label>
                             </div>
                             <div class="checkbox">
                                 <label>
-                                    <input type="checkbox" name="tags[]" value="travel">Travel
+                                    <input type="checkbox" name="tags[]" value="3">Travel
                                 </label>
                             </div>
                             <div class="checkbox">
                                 <label>
-                                    <input type="checkbox" name="tags[]" value="transpot">Transpot
+                                    <input type="checkbox" name="tags[]" value="4">Transpot
                                 </label>
                             </div>
                             <div class="checkbox">
                                 <label>
-                                    <input type="checkbox" name="tags[]" value="food">Food
+                                    <input type="checkbox" name="tags[]" value="5">Food
                                 </label>
                             </div>
                             <div class="checkbox">
                                 <label>
-                                    <input type="checkbox" name="tags[]" value="other">Other
+                                    <input type="checkbox" name="tags[]" value="6">Other
                                 </label>
                             </div>
                         </div>
@@ -75,7 +75,7 @@
                     <div class="form-group">
                         <label for="inputPlace" class="col-sm-2 control-label">สถานที่</label>
                         <div class="col-sm-10">
-                            <input type="place" name="location" id="location" class="form-control" required="required" placeholder="สถานที่จัดโปรโมชัน">
+                            <input type="place" name="place" id="place" class="form-control" required="required" placeholder="สถานที่จัดโปรโมชัน">
                         </div>
                     </div>
                 </div>

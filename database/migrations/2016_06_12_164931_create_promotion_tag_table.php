@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreatePromotionsTagsTable extends Migration
+class CreatePromotionTagTable extends Migration
 {
     /**
      * Run the migrations.
@@ -12,7 +12,8 @@ class CreatePromotionsTagsTable extends Migration
      */
     public function up()
     {
-        Schema::create('promotions_tags', function (Blueprint $table) {
+        Schema::create('promotion_tag', function (Blueprint $table) {
+            $table->increments('id');
             $table->integer('promotion_id')->index()->unsigned();
             $table->foreign('promotion_id')->references('id')->on('promotions')->onDelete('cascade');
             $table->integer('tag_id')->index()->unsigned();
@@ -28,6 +29,6 @@ class CreatePromotionsTagsTable extends Migration
      */
     public function down()
     {
-        Schema::drop('promotions_tags');
+        Schema::drop('promotion_tag');
     }
 }

@@ -1,0 +1,15 @@
+/* ------ default color ------ */
+/* ------ space ------ */
+section.landing div.panel-custom div.panel-heading {
+  background-color: #990000;
+  color: #FFFFFF; }
+
+section.landing div.panel-custom div.panel-body div.left img {
+  width: 100%;
+  display: block;
+  margin: auto; }
+
+section.landing div.panel-custom div.panel-body div.right div.content,
+section.landing div.panel-custom div.panel-body div.right div.tags,
+section.landing div.panel-custom div.panel-body div.right div.place {
+  margin-bottom: 8px; }

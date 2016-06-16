@@ -1,60 +1,38 @@
 /* ------ default color ------ */
-
-
 /* ------ space ------ */
-
 body {
-    background-color: #E0E0E0;
-}
-
-body nav.navbar-custom {
+  background-color: #E0E0E0; }
+  body nav.navbar-custom {
     border-radius: 0;
-    background-color: #990000;
-}
-
-body nav.navbar-custom div.navbar-header button span {
-    background-color: #FFFFFF;
-}
-
-body nav.navbar-custom div.navbar-header a.navbar-brand {
-    color: #FFFFFF;
-}
-
-body nav.navbar-custom div.navbar-collapse form.navbar-left input,
-body nav.navbar-custom div.navbar-collapse form.navbar-left button {
-    height: 36px;
-}
-
-body nav.navbar-custom div.navbar-collapse ul.navbar-right li > a {
-    background-color: #990000;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    color: #FFFFFF;
-    line-height: 36px;
-}
-
-body nav.navbar-custom div.navbar-collapse ul.navbar-right li > a i {
-    vertical-align: middle;
-}
-
-body nav.navbar-custom div.navbar-collapse ul.navbar-right li > a img {
-    margin-right: 8px;
-    height: 20px;
-    border-radius: 0px;
-}
-
-body nav.navbar-custom div.navbar-collapse ul.navbar-right li > a:hover,
-body nav.navbar-custom div.navbar-collapse ul.navbar-right li > a:focus {
-    background-color: #A52A2A;
-}
-
-body nav.navbar-custom div.navbar-collapse ul.navbar-right li.dropdown ul.dropdown-menu > li > a {
-    color: #000000;
-    background-color: #FFFFFF;
-}
-
-body nav.navbar-custom div.navbar-collapse ul.navbar-right li.dropdown ul.dropdown-menu > li > a:hover,
-body nav.navbar-custom div.navbar-collapse ul.navbar-right li.dropdown ul.dropdown-menu > li > a:focus {
-    background-color: #A52A2A;
-    color: #FFFFFF;
-}
+    background-color: #990000; }
+    body nav.navbar-custom div.navbar-header button span {
+      background-color: #FFFFFF; }
+    body nav.navbar-custom div.navbar-header a.navbar-brand {
+      color: #FFFFFF; }
+    body nav.navbar-custom div.navbar-collapse form.navbar-left input,
+    body nav.navbar-custom div.navbar-collapse form.navbar-left button {
+      height: 36px; }
+    body nav.navbar-custom div.navbar-collapse ul.navbar-right li > a {
+      background-color: #990000;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      color: #FFFFFF;
+      line-height: 36px; }
+      body nav.navbar-custom div.navbar-collapse ul.navbar-right li > a i {
+        vertical-align: middle; }
+      body nav.navbar-custom div.navbar-collapse ul.navbar-right li > a img {
+        margin-right: 8px;
+        height: 20px;
+        border-radius: 0px; }
+    body nav.navbar-custom div.navbar-collapse ul.navbar-right li > a:hover,
+    body nav.navbar-custom div.navbar-collapse ul.navbar-right li > a:focus {
+      background-color: #A52A2A; }
+    body nav.navbar-custom div.navbar-collapse ul.navbar-right li.dropdown ul.dropdown-menu > li > a {
+      color: #000000;
+      background-color: #FFFFFF; }
+    body nav.navbar-custom div.navbar-collapse ul.navbar-right li.dropdown ul.dropdown-menu > li > a:hover,
+    body nav.navbar-custom div.navbar-collapse ul.navbar-right li.dropdown ul.dropdown-menu > li > a:focus {
+      background-color: #A52A2A;
+      color: #FFFFFF; }
+  body div.container {
+    margin-top: 64px; }

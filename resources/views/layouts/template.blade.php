@@ -17,7 +17,7 @@
 
 </head>
 <body>
-	<nav class="navbar navbar-custom" role="navigation">
+	<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
 		<div class="container-fluid">
 			<!-- Brand and toggle get grouped for better mobile display -->
 			<div class="navbar-header">
@@ -69,14 +69,14 @@
 			</div><!-- /.navbar-collapse -->
 		</div>
 	</nav>
-
+	<div class="container">
+		@yield('content')
+	</div>
 	@extends('modal.create')
-	
-	@yield('content')
 
 	<script src="/bootstrap/js/jquery-1.12.3.min.js"></script>
 	<script src="/bootstrap/js/bootstrap.min.js"></script>
-	
+	<script src="bootstrap/js/jquery.dotdotdot.min.js"></script> 
 	@yield('javascript')
 </body>
 </html>

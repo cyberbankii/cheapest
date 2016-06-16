@@ -1,0 +1,25 @@
+@import 'variable';
+section.landing {
+    div.panel-custom {
+        div.panel-heading {
+            background-color: $color-main-default;
+            color: $color-default;
+        }
+        div.panel-body {
+            div.left {
+                img {
+                    width: 100%;
+                    display: block;
+                    margin: auto;
+                }
+            }
+            div.right {
+                div.content,
+                div.tags,
+                div.place {
+                    margin-bottom: $sm-space-normal;
+                }
+            }
+        }
+    }
+}
